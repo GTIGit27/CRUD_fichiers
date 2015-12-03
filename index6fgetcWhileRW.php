@@ -25,7 +25,7 @@ while(FALSE !== ($char = fgetc($handle))) {
 }
 
 //boucle en lecture/écriture
-$handle = fopen("bonjour6fgetcWhileRW", "r+");
+$handle = fopen("bonjour6fgetcWhileRW.txt", "r+");
 $texte = "";
 while($char = fgetc($handle)) {
     // lire le premier caractère
@@ -34,4 +34,21 @@ while($char = fgetc($handle)) {
 }
 fclose($handle);
 file_put_contents($fichier, $texte);
+
+// écrire dans le fichier cermalad.txt la fable suivante :
+// http://www.la-fontaine-ch-thierry.net/cermalad.htm
+
+// 1- lire et l'afficher en majuscule via un script php
+// 2- remplacer les A en E et E en A dans le fichier cermalad.txt
+// 3- l'afficher en php
+
+
+
+
+
+
+
+
+
+
 ?>
