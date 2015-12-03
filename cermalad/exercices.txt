@@ -1,14 +1,7 @@
-// Exercice 1
+// Exercice
 // écrire dans le fichier cermalad.txt la fable suivante :
 // http://www.la-fontaine-ch-thierry.net/cermalad.htm
 
 // 1- lire et l'afficher en majuscule via un script php
 // 2- remplacer les A en E et E en A dans le fichier cermalad.txt
 // 3- l'afficher en php
-
-// Exercice 2
-// 1- créer un script salutations.php
-// 2- créer un fichier liste_prénoms.txt, y mettre une dizaine de prénoms
-// 3- salutations.php affiche "bonjour [prenom]" pour chaque prénom contenu
-// 	dans le fichier liste.prénoms.txt (voir la fonction fget
-

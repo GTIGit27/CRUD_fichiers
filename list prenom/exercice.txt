@@ -1,0 +1,7 @@
+
+// Exercice 2
+// 1- créer un script salutations.php
+// 2- créer un fichier liste_prénoms.txt, y mettre une dizaine de prénoms
+// 3- salutations.php affiche "bonjour [prenom]" pour chaque prénom contenu
+// 	dans le fichier liste.prénoms.txt (voir la fonction fgets())
+
