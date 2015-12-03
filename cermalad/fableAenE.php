@@ -27,25 +27,28 @@ La pitance du Cerf en déchut de beaucoup ;
             Tout le monde se fait payer.");
 
 $texte = file_get_contents($fichier);
-echo $texte . "<br/>"; // affiche le texte dans le navigateur
-
+echo "<pre>" . $texte . "</pre>"; // affiche le texte dans le navigateur
+// la balise <pre> permet de garder la mise en forme du texte
 
 // texte en majsucule
 $str = $texte;
 $str = strtoupper($str);
-echo $str . "<br/>";
+echo "<pre>" . $str . "</pre>";
 
 // remplacer les A en E
 $in = array('A');
 $out = array('E');
 $str = str_replace($in, $out, $str);
-echo $str ."<br/>";
+echo "<pre>" . $str ."</pre>";
 
 // remplacer les E en A
 $in = array('E');
 $out = array('A');
 $str = str_replace($in, $out, $str);
-echo $str;
+echo "<pre>" . $str . "</pre>";
+
+file_put_contents($fichier, $str, FILE_APPEND);
+// modifie le fichier fableOrigin.txt. Pour voir la modification, il faut rouvrir à chaque fois le txt, pas de maj dynamique.
 
 
 

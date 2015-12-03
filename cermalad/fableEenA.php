@@ -48,6 +48,9 @@ $out = array('A');
 $str = str_replace($in, $out, $str);
 echo $str;
 
+file_put_contents($fichier, $str, FILE_APPEND);
+// modifie le fichier fableOrigin.txt. Pour voir la modification, il faut rouvrir à chaque fois le txt, pas de maj dynamique.
+
 
 
 
