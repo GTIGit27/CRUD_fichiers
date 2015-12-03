@@ -8,5 +8,5 @@ file_put_contents($fichier, "Paul", FILE_APPEND); // on inscrit en ajoutant
 
 // lecture
 $texte = file_get_contents($fichier);
-echo $texte;
+echo $texte; // on affiche le texte dans un navigateur
 ?>
